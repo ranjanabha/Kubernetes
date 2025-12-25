@@ -113,13 +113,17 @@ The Kubernetes Service initially points to the Blue deployment.
 Traffic is switched to Green by simply updating the service selector.
 
 🚀 Deploying the Application
+
 1️⃣ Install Helm
+
 bash
 Copy code
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 chmod 700 get_helm.sh
 ./get_helm.sh
+
 2️⃣ Configure kubeconfig
+
 From Azure Portal:
 
 Open AKS cluster
@@ -129,6 +133,7 @@ Click Connect
 Run the provided commands locally
 
 3️⃣ Deploy Using Helm
+
 bash
 Copy code
 helm install blue ./chart
