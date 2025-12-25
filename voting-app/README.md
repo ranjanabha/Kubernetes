@@ -36,7 +36,8 @@ Each node pool is configured with:
 
 Pods explicitly opt in using matching **tolerations** and **node affinity rules**.
 
-> 📷 Add architecture diagram here
+<img width="1536" height="1024" alt="ChatGPT Image Dec 25, 2025, 09_58_47 AM" src="https://github.com/user-attachments/assets/8370dd4e-9734-450b-9062-0e7e87a88c8f" />
+
 
 ---
 
