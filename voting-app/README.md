@@ -69,6 +69,8 @@ Pods explicitly opt in using matching **tolerations** and **node affinity rules*
 │   ├── Chart.yaml
 │   └── values.yaml
 ├── README.md
+
+```bash
 ⚙️ AKS Cluster Prerequisites
 AKS cluster with two node pools
 
